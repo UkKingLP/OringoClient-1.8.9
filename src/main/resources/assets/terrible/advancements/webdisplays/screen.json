@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": { "item": "webdisplays:screen" },
+    "title": { "translate": "advancements.webdisplays.screen.title" },
+    "description": { "translate": "advancements.webdisplays.screen.description" }
+  },
+  "parent": "webdisplays:webdisplays/root",
+  "criteria": {
+    "has_screen": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "item": "webdisplays:screen" } ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "webdisplays:linker",
+      "webdisplays:screencfg",
+      "webdisplays:peripheral",
+      "webdisplays:rctrl",
+      "webdisplays:ocinterface",
+      "webdisplays:redctrl1",
+      "webdisplays:redctrl2",
+      "webdisplays:stonekey",
+      "webdisplays:keyboard",
+      "webdisplays:server"
+    ]
+  }
+}
